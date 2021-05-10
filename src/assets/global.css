@@ -1,46 +1,51 @@
 body {
     margin: 0;
-  }
+}
 
-  header {
+header {
     background-color: mediumseagreen;
-  }
-  
-  #app {
+}
+
+#app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-  }
-  
-  #nav {
+}
+
+#nav {
     padding: 30px;
-  }
-  
-  #nav a {
+}
+
+#nav a {
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  #nav a.router-link-exact-active {
-    color:#ffffff;
-  }
-  
-  h2::first-letter, h3::first-letter, p::first-letter {
-      text-transform: capitalize;
-  }
-  .v-application a, 
-  .post-links a, h3{
-      color: rgba(0, 0, 0, 0.87)!important;
-      font-weight: 300;
-      line-height: 1;
-  }
-  a:-webkit-any-link {
-      text-decoration: none;
-  }
+}
 
-  .post-page{
+#nav a.router-link-exact-active {
+    color: #ffffff;
+}
+
+h2::first-letter,
+h3::first-letter,
+p::first-letter {
+    text-transform: capitalize;
+}
+
+.v-application a,
+.post-links a,
+h3 {
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-weight: 300;
+    line-height: 1;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.post-page {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -57,11 +62,11 @@ body {
     margin: auto;
     padding: 15rem;
     min-height: 25vh;
-  }
+}
 
-  footer {
-   background-color: #2c3e50;
-   color: #ffffff;
-   padding: 30px;
-   margin: auto;
-  }
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 30px;
+    margin: auto;
+}
