@@ -1,4 +1,4 @@
-# vivalacar-api-test
+# vivalavue-api-test
 
 ## Project setup
 ```
