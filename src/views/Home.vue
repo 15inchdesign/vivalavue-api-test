@@ -9,7 +9,7 @@
             cols="12"
             sm="6"
             md="4"
-            lg="3"
+            lg="6"
           >
             <v-card>
               <router-link
@@ -20,7 +20,7 @@
                   <h3>{{ post.id }}</h3>
                 </v-card-title>
                 <v-divider></v-divider>
-                <v-card-title class="subheading font-weight-regular">
+                <v-card-title class="font-weight-regular">
                   <h3>{{ post.title }}</h3>
                 </v-card-title>
               </router-link>
